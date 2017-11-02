@@ -1,6 +1,10 @@
+// NOTE: I COULD NOT GET THIS APP TO DEPLOY SUCCESSFULLY TO HEROKU OR TO WORK. I got the following err messages: 
+// npm ERR! burger@1.0.0 start: `node server.js`
+// npm ERR! Failed at the burger@1.0.0 start script.
+
 var express = require("express");
 var bodyParser = require("body-parser");
-// var methodOverride = require('method-override');
+var methodOverride = require('method-override');
 
 var PORT = process.env.PORT || 3000;
 
@@ -10,7 +14,7 @@ var app = express();
 app.use(express.static("public"));
 
 app.use(bodyParser.urlencoded({ extended: false }));
-// app.use(methodOverride('_method'));
+app.use(methodOverride('_method'));
 
 // Set Handlebars.
 var exphbs = require("express-handlebars");
