@@ -1,4 +1,4 @@
-// NOTE: I COULD NOT GET THIS APP TO DEPLOY SUCCESSFULLY TO HEROKU OR TO WORK. I got the following err messages: 
+// NOTE: I TRIED VERY HARD TO GET THIS APP TO DEPLOY TO HEROKU AND TO WORK BUT JUST COULDN'T FIGURE IT OUT.  IT IS VERY FRUSTRATING.  I got the following err messages: 
 // npm ERR! burger@1.0.0 start: `node server.js`
 // npm ERR! Failed at the burger@1.0.0 start script.
 
